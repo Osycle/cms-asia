@@ -41,13 +41,25 @@
 				<span>{$config.phone}</span>
 			</div>
 
-			<div class="f-lang col-md-1">
-				<span class="color-1">
-					<a href="javascript:void(0)">RUS</a>
-				</span> 
-				/ <a href="javascript:void(0)">UZB</a> 
+			<div class="f-lang col-md-1 align-right-md lang-nav">
+				<span class="lang-item active"><a href="{$GLOBAL_URL}">RUS</a></span> 
+				/ 
+				<span class="lang-item"><a href="{$GLOBAL_URL}/en/index.htm">UZB</a></span>
 			</div>
 
+
+			<div class="dev col-md-6 align-left-md">
+		      <a href="https://www.life-style.uz" class="link" title="Создание и продвижение сайтов в Ташкенте">
+		      	Создание сайтов
+		      	<em><font color="#2678b7">Life </font></em><font color="ghostwhite">Style</font>
+		      </a> 
+			</div>
+			<div class="copyright col-md-6 align-right-md">
+		    <p>© <time id="copydate">2018</time> 
+		    	Construction <font color="#2678b7">Asia</font>. Все права защищены</p>
+		    <script>copydate.innerText = new Date().getFullYear()</script>
+		    <p>
+			</div>
 		</div>
 	</footer>
 	
