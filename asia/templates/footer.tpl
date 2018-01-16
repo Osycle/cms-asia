@@ -48,7 +48,7 @@
 			</div>
 
 
-			<div class="dev col-md-6 align-left-md">
+			<div class="dev col-md-6 align-left-md hidden-xs hidden-sm">
 		      <a href="https://www.life-style.uz" class="link" title="Создание и продвижение сайтов в Ташкенте">
 		      	Создание сайтов
 		      	<em><font color="#2678b7">Life </font></em><font color="ghostwhite">Style</font>

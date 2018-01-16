@@ -464,6 +464,7 @@ $(function(){
 
 
 
+// 	$("html, body").animate({ scrollTop: $('#title1').offset().top }, 1000)
 
 
 
@@ -524,6 +525,7 @@ $(function(){
 				$(".bg-lines").addClass("in").removeClass("out") 
 			else
 				$(".bg-lines").addClass("out").removeClass("in");
+		return bool;
 	}
 	
 	

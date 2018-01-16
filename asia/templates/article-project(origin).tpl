@@ -1,5 +1,5 @@
 
-<div class="service-article" id="sectionContent">
+<div class="projects-article" id="sectionContent">
 
 	<div class="bg-page row">
 		<div class="layer">
@@ -32,26 +32,17 @@
 
 					<div class="article-content">
 						<div class="row">
-
-							<div class="service-two" data-aos="fade">
-
-								<div class="col-md-5 p-h-15 m-v-30">
-									<div class="img-content">
-										<a href="{$article.images.original.url}" data-fancybox>
-											<img src="{$article.images.large.url}" />
-										</a>
-									</div>
+							<div class="col-md-4 p-h-15 m-v-40">
+								<div class="img-content">
+									<a href="{$article.images.original.url}" data-fancybox>
+										<img src="{$article.images.large.url}" />
+									</a>
 								</div>
-								<div class="col-md-7 p-h-15 m-v-15">
-									<h2>{$article.title}</h2>
-									{$article.content|smarty:nodefaults}
-									<span class="btn-def m-t-30" role="button">
-										<a data-toggle="modal" data-target="#bidModal" subject="Заказать 222222222" >Заказать</a>
-									</span>
-								</div>
-
 							</div>
-
+							<div class="col-md-8 p-h-15 m-v-20">
+								<h2>{$article.title}</h2>
+								{$article.content|smarty:nodefaults}
+							</div>
 						</div>
 						
 					</div>
